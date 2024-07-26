@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/*
+    Em HTML é id    = em CSS é #
+    Em HTML é class = em CSS é .
+*/
+
+body{
+    background-color: #94dbd4;
+    font-family: 'Courier New', Courier, monospace
+}
+
+h1{
+    color: #007072;
+}
+
+h1#principal{
+    text-align: center;
+    background-color: #009194;
+    color: white;
+}
+
+h2{
+    color: #2E7269;
+}
+
+.basico{
+    color: #3e722e;
+}
+
+.intermediario{
+    color: #63722e;
+}
+
+.avancado{
+    color: #72302e;
+}
+
+.destaque{
+    background-color: rgba(19, 72, 185, 0.411);
+}
+
+/* É possível juntar id com class, porém o id sobrepõe o class se tiverem a mesma função*/
